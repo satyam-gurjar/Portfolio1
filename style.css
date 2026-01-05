@@ -4,3 +4,32 @@
     margin: 0px;
 }
 
+body{
+    background-color: #1e1e1e;
+    font-family: sans-serif;
+    color: #a0a0a0;
+    line-height: 1.6;
+
+}
+
+
+.main-container{
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 350px 1fr;
+    gap: 40px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.sidebar{
+    height: 90vh;
+    background-color: #2a2a2a;
+    
+}
+
+.main-content{
+    height: 90vh;
+    background-color: #2a2a2a;
+
+}
