@@ -134,3 +134,31 @@ nav a{
     color: #FFBF00;
 }
 
+/* About */
+.heading{
+    color: #e0e0e0;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.line{
+    width: 60px;
+    height: 5px;
+    background-color: #FFBF00;
+    margin-bottom: 15px;
+}
+
+.content{
+    text-align: justify;
+    color: #a0a0a0;
+}
+
+#about{
+    margin-bottom: 40px;
+}
+
+/* skills  */
+.grid-contianer{
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(12px,1fr));
+}
