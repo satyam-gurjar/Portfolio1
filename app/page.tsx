@@ -206,8 +206,8 @@ export default function Page() {
         <nav className="nav">
           <span className="nav-brand">VL.DEV</span>
           <div className="nav-links">
-            <a href="#" className="nav-link" title="GitHub">⌥</a>
-            <a href="#" className="nav-link" title="LinkedIn">in</a>
+            <a href="https://github.com/varunlikhitkar" className="nav-link" title="GitHub">⌥</a>
+            <a href="https://www.linkedin.com/in/varun-likhitkar-762067286/" className="nav-link" title="LinkedIn">in</a>
             <a href="mailto:varun@example.com" className="nav-link" title="Email">@</a>
           </div>
         </nav>
@@ -389,8 +389,8 @@ export default function Page() {
             <div className="contact-links">
               <a href="mailto:varunlikhitkar@gmail.com" className="contact-email">@ varunlikhitkar@gmail.com</a>
               <div className="contact-socials">
-                <a href="#" className="contact-social">⌥ GitHub</a>
-                <a href="#" className="contact-social">in LinkedIn</a>
+                <a href="https://github.com/varunlikhitkar" className="contact-social">⌥ GitHub</a>
+                <a href="https://www.linkedin.com/in/varun-likhitkar-762067286/" className="contact-social">in LinkedIn</a>
               </div>
             </div>
           </div>
