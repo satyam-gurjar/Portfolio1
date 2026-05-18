@@ -186,7 +186,7 @@ export default function Page() {
       <div className="port">
         {/* Hire Me inline (since no fixed) */}
         <div className="hire-badge-container">
-          <div className="hire-badge" onClick={() => (window.location.href = "mailto:varun@example.com") }>
+          <div className="hire-badge" onClick={() => (window.location.href = "mailto:satyamgurjar108@gmail.com") }>
             <span className="hire-label">✉ Open to opportunities</span>
             <div className="hire-ring">
               <svg viewBox="0 0 68 68" width="68" height="68">
@@ -204,11 +204,11 @@ export default function Page() {
 
         {/* NAV */}
         <nav className="nav">
-          <span className="nav-brand">VL.DEV</span>
+          <span className="nav-brand">SG.DEV</span>
           <div className="nav-links">
-            <a href="https://github.com/varunlikhitkar" className="nav-link" title="GitHub">⌥</a>
-            <a href="https://www.linkedin.com/in/varun-likhitkar-762067286/" className="nav-link" title="LinkedIn">in</a>
-            <a href="mailto:varun@example.com" className="nav-link" title="Email">@</a>
+            <a href="https://github.com/satyam-gurjar" className="nav-link" title="GitHub" target="_blank" rel="noopener noreferrer">⌥</a>
+            <a href="https://www.linkedin.com/in/satyam-gurjar-381b53205/" className="nav-link" title="LinkedIn" target="_blank" rel="noopener noreferrer">in</a>
+            <a href="mailto:satyamgurjar108@gmail.com" className="nav-link" title="Email">@</a>
           </div>
         </nav>
 
@@ -219,17 +219,17 @@ export default function Page() {
             <div className="available-badge"><span className="dot-pulse"></span>Available for Opportunities</div>
             <h1 className="hero-h1">GET <span className="highlight">YOUR</span></h1>
             <h2 className="hero-h2">AI ENGINEER</h2>
-            <p className="hero-desc">Maximizing development efficiency through an extensive ecosystem of modern AI tools. Specializing in LLM fine-tuning, multimodal GenAI, and autonomous AI orchestration.</p>
+            <p className="hero-desc">Specializing in LLM fine-tuning, multimodal generative AI, and intelligent automation. Passionate about building end-to-end AI solutions and autonomous systems with transformers and neural networks.</p>
             <div className="ctas">
               <a href="#projects" className="cta-primary" onClick={scrollToProjects}>View Projects</a>
-              <a href="#" className="cta-secondary">⬇ Resume</a>
+              <a href="/SATYAM-GURJAR (AIML) (1).pdf" className="cta-secondary" target="_blank" rel="noopener noreferrer">⬇ Resume</a>
             </div>
           </div>
           <div className="hero-photo">
             <div className="photo-frame">
-              <img className="profile-photo" src="/varun-photo.jpg" alt="Varun Likhitkar" />
+              <img className="profile-photo" src="/SATYAM.jpg" alt="Satyam Gurjar" />
               <div className="photo-name">
-                <p>Varun Likhitkar</p>
+                <p>Satyam Gurjar</p>
                 <p style={{ color: "rgba(255,255,255,.65)" }}>AI Engineer</p>
               </div>
             </div>
@@ -239,30 +239,30 @@ export default function Page() {
 
         {/* STATS BAR */}
         <div className="stats">
-          <div className="stat-item"><div className="stat-label">Specialization</div><div className="stat-value">AI/ML Specialist</div></div>
-          <div className="stat-item"><div className="stat-label">Experience</div><div className="stat-value">Internship: Semester Tech</div></div>
-          <div className="stat-item"><div className="stat-label">Education</div><div className="stat-value">B.Tech CSE — AIML</div></div>
+          <div className="stat-item"><div className="stat-label">Specialization</div><div className="stat-value">AI/ML Engineer</div></div>
+          <div className="stat-item"><div className="stat-label">Experience</div><div className="stat-value">Internship: SemsterTech</div></div>
+          <div className="stat-item"><div className="stat-label">Education</div><div className="stat-value">B.Tech CSE — AIML (7.9 CGPA)</div></div>
         </div>
 
         {/* MARQUEE */}
         <div className="marquee-wrap" title="Hover to pause">
           <div className="marquee-track" id="marquee">
             <span className="marquee-item"><span className="marquee-text">Python</span><span className="marquee-dot">✦</span></span>
-            <span className="marquee-item"><span className="marquee-text">DeepSeek R1</span><span className="marquee-dot">✦</span></span>
-            <span className="marquee-item"><span className="marquee-text">LLaMA</span><span className="marquee-dot">✦</span></span>
-            <span className="marquee-item"><span className="marquee-text">Gemma 3.4</span><span className="marquee-dot">✦</span></span>
-            <span className="marquee-item"><span className="marquee-text">n8n</span><span className="marquee-dot">✦</span></span>
-            <span className="marquee-item"><span className="marquee-text">Flux</span><span className="marquee-dot">✦</span></span>
-            <span className="marquee-item"><span className="marquee-text">ElevenLabs</span><span className="marquee-dot">✦</span></span>
+            <span className="marquee-item"><span className="marquee-text">LangChain</span><span className="marquee-dot">✦</span></span>
             <span className="marquee-item"><span className="marquee-text">PyTorch</span><span className="marquee-dot">✦</span></span>
+            <span className="marquee-item"><span className="marquee-text">Transformers</span><span className="marquee-dot">✦</span></span>
+            <span className="marquee-item"><span className="marquee-text">NLP</span><span className="marquee-dot">✦</span></span>
+            <span className="marquee-item"><span className="marquee-text">GNN</span><span className="marquee-dot">✦</span></span>
+            <span className="marquee-item"><span className="marquee-text">RAG</span><span className="marquee-dot">✦</span></span>
+            <span className="marquee-item"><span className="marquee-text">LSTM</span><span className="marquee-dot">✦</span></span>
             <span className="marquee-item"><span className="marquee-text">Python</span><span className="marquee-dot">✦</span></span>
-            <span className="marquee-item"><span className="marquee-text">DeepSeek R1</span><span className="marquee-dot">✦</span></span>
-            <span className="marquee-item"><span className="marquee-text">LLaMA</span><span className="marquee-dot">✦</span></span>
-            <span className="marquee-item"><span className="marquee-text">Gemma 3.4</span><span className="marquee-dot">✦</span></span>
-            <span className="marquee-item"><span className="marquee-text">n8n</span><span className="marquee-dot">✦</span></span>
-            <span className="marquee-item"><span className="marquee-text">Flux</span><span className="marquee-dot">✦</span></span>
-            <span className="marquee-item"><span className="marquee-text">ElevenLabs</span><span className="marquee-dot">✦</span></span>
+            <span className="marquee-item"><span className="marquee-text">LangChain</span><span className="marquee-dot">✦</span></span>
             <span className="marquee-item"><span className="marquee-text">PyTorch</span><span className="marquee-dot">✦</span></span>
+            <span className="marquee-item"><span className="marquee-text">Transformers</span><span className="marquee-dot">✦</span></span>
+            <span className="marquee-item"><span className="marquee-text">NLP</span><span className="marquee-dot">✦</span></span>
+            <span className="marquee-item"><span className="marquee-text">GNN</span><span className="marquee-dot">✦</span></span>
+            <span className="marquee-item"><span className="marquee-text">RAG</span><span className="marquee-dot">✦</span></span>
+            <span className="marquee-item"><span className="marquee-text">LSTM</span><span className="marquee-dot">✦</span></span>
           </div>
         </div>
 
@@ -281,17 +281,17 @@ export default function Page() {
               <div className="card-top-bar" style={{ background: "var(--lime)" }}></div>
               <div className="card-body">
                 <div className="card-header">
-                  <div className="card-icon" style={{ fontSize: "22px" }}>✋</div>
+                  <div className="card-icon" style={{ fontSize: "22px" }}>🎙️</div>
                   <div className="card-links">
                     <div className="card-link">⌥</div>
                     <div className="card-link">↗</div>
                   </div>
                 </div>
-                <div className="card-title">AirTouch</div>
-                <div className="card-sub">AI Gesture-Controlled Virtual Mouse</div>
-                <div className="card-desc">Real-time computer vision system using MediaPipe hand-landmark detection to translate 21-point hand skeletons into mouse gestures. Achieves sub-20ms latency with a custom gesture classifier trained on 5,000+ samples.</div>
+                <div className="card-title">AI Personal Assistant</div>
+                <div className="card-sub">Voice Recognition & Control System</div>
+                <div className="card-desc">Developed an intelligent personal assistant with advanced voice recognition capabilities. Integrated Speech-to-Text and Text-to-Speech for seamless hands-free interaction. Implemented voice-based authentication and system control features including task automation, scheduling, and multi-user support.</div>
                 <div className="tags">
-                  <span className="tag">Python</span><span className="tag">MediaPipe</span><span className="tag">OpenCV</span><span className="tag">PyAutoGUI</span>
+                  <span className="tag">Python</span><span className="tag">LangChain</span><span className="tag">Speech-to-Text</span><span className="tag">System APIs</span>
                 </div>
                 <div className="card-cta">View Project <span>→</span></div>
               </div>
@@ -301,17 +301,57 @@ export default function Page() {
               <div className="card-top-bar" style={{ background: "#000", borderBottom: "3px solid rgba(255,255,255,.1)" }}></div>
               <div className="card-body">
                 <div className="card-header">
-                  <div className="card-icon" style={{ fontSize: "22px" }}>🎙️</div>
+                  <div className="card-icon" style={{ fontSize: "22px" }}>🎬</div>
                   <div className="card-links">
                     <div className="card-link">⌥</div>
                     <div className="card-link">↗</div>
                   </div>
                 </div>
-                <div className="card-title">ARIS</div>
-                <div className="card-sub">Personal AI Assistant — Speech to Speech</div>
-                <div className="card-desc">End-to-end multimodal AI assistant combining Whisper ASR, GPT-4o reasoning, and ElevenLabs neural TTS. Features persistent memory, tool-use via LangChain agents, and a local-first architecture.</div>
+                <div className="card-title">Movie Recommendation System</div>
+                <div className="card-sub">Content-Based Recommendation Engine</div>
+                <div className="card-desc">Built a content-based movie recommendation engine using metadata similarity techniques. Processed and cleaned movie datasets for feature extraction and similarity matching. Implemented cosine similarity algorithms to generate personalized recommendations with improved relevance through preprocessing.</div>
                 <div className="tags">
-                  <span className="tag">Python</span><span className="tag">Whisper</span><span className="tag">ElevenLabs</span><span className="tag">LangChain</span>
+                  <span className="tag">Python</span><span className="tag">Pandas</span><span className="tag">Scikit-learn</span><span className="tag">ML</span>
+                </div>
+                <div className="card-cta">View Project <span>→</span></div>
+              </div>
+            </div>
+            {/* Card 3 */}
+            <div className="card card-white" onClick={() => {}}>
+              <div className="card-top-bar" style={{ background: "var(--lime)" }}></div>
+              <div className="card-body">
+                <div className="card-header">
+                  <div className="card-icon" style={{ fontSize: "22px" }}>🌐</div>
+                  <div className="card-links">
+                    <div className="card-link">⌥</div>
+                    <div className="card-link">↗</div>
+                  </div>
+                </div>
+                <div className="card-title">Neural Machine Translation</div>
+                <div className="card-sub">English-Hindi Transformer Model</div>
+                <div className="card-desc">Implemented a transformer-based neural machine translation model from scratch. Designed the full training pipeline for English-to-Hindi translation tasks. Applied attention mechanisms to improve sequence-to-sequence translation quality and refined architecture for optimal output.</div>
+                <div className="tags">
+                  <span className="tag">Transformer</span><span className="tag">Python</span><span className="tag">NLP</span><span className="tag">Attention</span>
+                </div>
+                <div className="card-cta">View Project <span>→</span></div>
+              </div>
+            </div>
+            {/* Card 4 */}
+            <div className="card card-black" onClick={() => {}}>
+              <div className="card-top-bar" style={{ background: "#000", borderBottom: "3px solid rgba(255,255,255,.1)" }}></div>
+              <div className="card-body">
+                <div className="card-header">
+                  <div className="card-icon" style={{ fontSize: "22px" }}>⚛️</div>
+                  <div className="card-links">
+                    <div className="card-link">⌥</div>
+                    <div className="card-link">↗</div>
+                  </div>
+                </div>
+                <div className="card-title">GNN Force Predictions</div>
+                <div className="card-sub">Graph Neural Network Model</div>
+                <div className="card-desc">Developed a graph neural network model to predict inter-particle forces from structured relationships. Modeled particles as graph nodes to capture spatial and interaction dependencies. Applied deep learning techniques to learn complex force patterns and dynamics.</div>
+                <div className="tags">
+                  <span className="tag">GNN</span><span className="tag">PyTorch</span><span className="tag">Deep Learning</span><span className="tag">Physics</span>
                 </div>
                 <div className="card-cta">View Project <span>→</span></div>
               </div>
@@ -325,27 +365,27 @@ export default function Page() {
           <div className="section-title" style={{ color: "#fff", marginBottom: "40px" }}>SKILLS</div>
           <div className="skills-grid">
             <div className="skill-col">
-              <div className="skill-col-header"><div className="skill-icon">🧠</div><div className="skill-col-label">LLMs &amp;<br />Fine-Tuning</div></div>
+              <div className="skill-col-header"><div className="skill-icon">🧠</div><div className="skill-col-label">LLMs &amp;<br />Generative AI</div></div>
               <ul className="skill-items">
-                <li className="skill-item">DeepSeek R1</li><li className="skill-item">Gemma 3.4</li><li className="skill-item">LLaMA 3.1</li><li className="skill-item">LoRA / QLoRA</li><li className="skill-item">PEFT</li><li className="skill-item">Unsloth</li>
+                <li className="skill-item">LangChain</li><li className="skill-item">RAG (Vector Embeddings)</li><li className="skill-item">FAISS</li><li className="skill-item">Transformers</li><li className="skill-item">Fine-tuning</li><li className="skill-item">LSTM</li>
               </ul>
             </div>
             <div className="skill-col">
-              <div className="skill-col-header"><div className="skill-icon">⚡</div><div className="skill-col-label">Multimodal<br />GenAI</div></div>
+              <div className="skill-col-header"><div className="skill-icon">⚡</div><div className="skill-col-label">Deep Learning<br />&amp; NLP</div></div>
               <ul className="skill-items">
-                <li className="skill-item">Flux (Image)</li><li className="skill-item">Kling (Video)</li><li className="skill-item">ElevenLabs TTS</li><li className="skill-item">Whisper STT</li><li className="skill-item">ComfyUI</li><li className="skill-item">SDXL</li>
+                <li className="skill-item">Neural Networks</li><li className="skill-item">GNN (Graph)</li><li className="skill-item">NLP</li><li className="skill-item">Computer Vision</li><li className="skill-item">Seq2Seq</li><li className="skill-item">Attention Mechanisms</li>
               </ul>
             </div>
             <div className="skill-col">
-              <div className="skill-col-header"><div className="skill-icon">🔧</div><div className="skill-col-label">AI<br />Orchestration</div></div>
+              <div className="skill-col-header"><div className="skill-icon">📊</div><div className="skill-col-label">Machine<br />Learning</div></div>
               <ul className="skill-items">
-                <li className="skill-item">n8n</li><li className="skill-item">LangChain</li><li className="skill-item">OpenAI Codex</li><li className="skill-item">AutoGen</li><li className="skill-item">CrewAI</li><li className="skill-item">FastAPI</li>
+                <li className="skill-item">Regression</li><li className="skill-item">Classification</li><li className="skill-item">KNN / SVM</li><li className="skill-item">Random Forest</li><li className="skill-item">XGBoost</li><li className="skill-item">Feature Engineering</li>
               </ul>
             </div>
             <div className="skill-col" style={{ borderRight: "none" }}>
               <div className="skill-col-header"><div className="skill-icon">💻</div><div className="skill-col-label">Core<br />Engineering</div></div>
               <ul className="skill-items">
-                <li className="skill-item">Python</li><li className="skill-item">PyTorch</li><li className="skill-item">OpenCV</li><li className="skill-item">MediaPipe</li><li className="skill-item">Git</li><li className="skill-item">Docker</li>
+                <li className="skill-item">Python</li><li className="skill-item">PyTorch</li><li className="skill-item">Pandas / NumPy</li><li className="skill-item">Scikit-learn</li><li className="skill-item">Git / GitHub</li><li className="skill-item">Jupyter Notebook</li>
               </ul>
             </div>
           </div>
@@ -360,21 +400,21 @@ export default function Page() {
               <div>
                 <div className="exp-role">AI Engineer Intern</div>
                 <div className="exp-meta">
-                  <span className="exp-company">Semester Tech</span>
+                  <span className="exp-company">SemsterTech</span>
                   <span style={{ width: "4px", height: "4px", background: "rgba(0,0,0,.3)", borderRadius: "50%", display: "inline-block" }}></span>
-                  <span className="exp-period">Apr – Aug 2025</span>
+                  <span className="exp-period">Apr – Aug 2025 (4 Months)</span>
                 </div>
               </div>
               <div className="exp-badge">Current Role</div>
             </div>
             <ul className="exp-points">
-              <li className="exp-point"><span className="exp-bullet"></span>Fine-tuned Gemma 3.4 and DeepSeek R1 using LoRA/QLoRA adapters on domain-specific datasets, achieving 23% improvement in task-specific accuracy.</li>
-              <li className="exp-point"><span className="exp-bullet"></span>Built multimodal GenAI pipelines integrating Flux image generation and Kling video synthesis for content automation workflows.</li>
-              <li className="exp-point"><span className="exp-bullet"></span>Designed and deployed n8n-based AI orchestration systems, reducing manual workflow time by 60%.</li>
-              <li className="exp-point"><span className="exp-bullet"></span>Developed speech-to-speech AI assistant prototypes using Whisper ASR and ElevenLabs TTS with sub-500ms response latency.</li>
+              <li className="exp-point"><span className="exp-bullet"></span>Developed and deployed AI agents for process automation and intelligent task execution using LangChain and modern LLM frameworks.</li>
+              <li className="exp-point"><span className="exp-bullet"></span>Built automation workflows to streamline business operations and improve efficiency across multiple departments.</li>
+              <li className="exp-point"><span className="exp-bullet"></span>Collaborated with cross-functional teams to identify automation opportunities and implement AI-driven solutions.</li>
+              <li className="exp-point"><span className="exp-bullet"></span>Gained hands-on experience in AI/ML model deployment and real-world application development in production environments.</li>
             </ul>
             <div className="exp-tags">
-              <span className="exp-tag">Gemma 3.4</span><span className="exp-tag">DeepSeek R1</span><span className="exp-tag">LoRA</span><span className="exp-tag">n8n</span><span className="exp-tag">Flux</span><span className="exp-tag">Kling</span><span className="exp-tag">ElevenLabs</span><span className="exp-tag">Python</span>
+              <span className="exp-tag">LangChain</span><span className="exp-tag">Python</span><span className="exp-tag">AI Agents</span><span className="exp-tag">Automation</span><span className="exp-tag">LLMs</span><span className="exp-tag">Transformers</span><span className="exp-tag">NLP</span><span className="exp-tag">Deep Learning</span>
             </div>
           </div>
         </div>
@@ -387,10 +427,10 @@ export default function Page() {
               <div className="contact-h">GET IN<br />TOUCH.</div>
             </div>
             <div className="contact-links">
-              <a href="mailto:varunlikhitkar@gmail.com" className="contact-email">@ varunlikhitkar@gmail.com</a>
+              <a href="mailto:satyamgurjar108@gmail.com" className="contact-email">@ satyamgurjar108@gmail.com</a>
               <div className="contact-socials">
-                <a href="https://github.com/varunlikhitkar" className="contact-social">⌥ GitHub</a>
-                <a href="https://www.linkedin.com/in/varun-likhitkar-762067286/" className="contact-social">in LinkedIn</a>
+                <a href="https://github.com/satyam-gurjar" className="contact-social" target="_blank" rel="noopener noreferrer">⌥ GitHub</a>
+                <a href="https://www.linkedin.com/in/satyam-gurjar-381b53205/" className="contact-social" target="_blank" rel="noopener noreferrer">in LinkedIn</a>
               </div>
             </div>
           </div>
@@ -398,7 +438,7 @@ export default function Page() {
 
         {/* FOOTER */}
         <div className="footer">
-          <span className="footer-text">© 2025 Varun Likhitkar</span>
+          <span className="footer-text">© 2025 Satyam Gurjar</span>
           <span className="footer-text">Next.js · Tailwind CSS · Framer Motion</span>
         </div>
       </div>
