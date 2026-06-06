@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://satyamgurjar.engineer"),
 
-  title: "Satyam Gurjar | AI Engineer",
+  title: "Satyam Gurjar AI Engineer Portfolio",
 
   description:
     "AI Engineer specializing in Generative AI, LLMs, RAG systems, AI agents, machine learning, and full-stack AI applications.",
