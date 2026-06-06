@@ -1,3 +1,4 @@
+
 "use client";
 
 export default function Page() {
@@ -7,9 +8,26 @@ export default function Page() {
       document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
     }
   };
+  const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Satyam Gurjar",
+  jobTitle: "AI Engineer",
+  url: "https://satyamgurjar.engineer",
+  sameAs: [
+    "https://github.com/satyam-gurjar",
+    "https://www.linkedin.com/in/satyam-gurjar-381b53205/",
+  ],
+};
 
   return (
     <>
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(personSchema),
+        }}
+      />
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@400;500;600&display=swap');
 
@@ -186,7 +204,7 @@ export default function Page() {
       <div className="port">
         {/* Hire Me inline (since no fixed) */}
         <div className="hire-badge-container">
-          <div className="hire-badge" onClick={() => (window.location.href = "mailto:satyamgurjar108@gmail.com") }>
+          <div className="hire-badge" onClick={() => (window.location.href = "mailto:satyamgurjar108@gmail.com")}>
             <span className="hire-label">✉ Open to opportunities</span>
             <div className="hire-ring">
               <svg viewBox="0 0 68 68" width="68" height="68">
@@ -217,10 +235,19 @@ export default function Page() {
           <div className="hero-bg"></div>
           <div className="hero-left">
             <div className="available-badge"><span className="dot-pulse"></span>Available for Opportunities</div>
-            <h1 className="hero-h1">GET <span className="highlight">YOUR</span></h1>
-            <h2 className="hero-h2">AI ENGINEER</h2>
-            <p className="hero-desc">Specializing in LLM fine-tuning, multimodal generative AI, and intelligent automation. Passionate about building end-to-end AI solutions and autonomous systems with transformers and neural networks.</p>
-            <div className="ctas">
+            <h1 className="hero-h1">
+              SATYAM <span className="highlight">GURJAR</span>
+            </h1>
+
+            <h2 className="hero-h2">
+              AI ENGINEER
+            </h2>
+            <p className="hero-desc">
+              AI Engineer specializing in Generative AI, Large Language Models (LLMs),
+              RAG systems, AI Agents, LangChain, PyTorch, Deep Learning,
+              and intelligent automation solutions.
+            </p>          
+              <div className="ctas">
               <a href="#projects" className="cta-primary" onClick={scrollToProjects}>View Projects</a>
               <a href="/SATYAM-GURJAR (AIML) (1).pdf" className="cta-secondary" target="_blank" rel="noopener noreferrer">⬇ Resume</a>
             </div>
@@ -277,7 +304,7 @@ export default function Page() {
           </div>
           <div className="projects-grid">
             {/* Card 1 */}
-            <div className="card card-white" onClick={() => {}}>
+            <div className="card card-white" onClick={() => { }}>
               <div className="card-top-bar" style={{ background: "var(--lime)" }}></div>
               <div className="card-body">
                 <div className="card-header">
@@ -297,7 +324,7 @@ export default function Page() {
               </div>
             </div>
             {/* Card 2 */}
-            <div className="card card-black" onClick={() => {}}>
+            <div className="card card-black" onClick={() => { }}>
               <div className="card-top-bar" style={{ background: "#000", borderBottom: "3px solid rgba(255,255,255,.1)" }}></div>
               <div className="card-body">
                 <div className="card-header">
@@ -317,7 +344,7 @@ export default function Page() {
               </div>
             </div>
             {/* Card 3 */}
-            <div className="card card-white" onClick={() => {}}>
+            <div className="card card-white" onClick={() => { }}>
               <div className="card-top-bar" style={{ background: "var(--lime)" }}></div>
               <div className="card-body">
                 <div className="card-header">
@@ -337,7 +364,7 @@ export default function Page() {
               </div>
             </div>
             {/* Card 4 */}
-            <div className="card card-black" onClick={() => {}}>
+            <div className="card card-black" onClick={() => { }}>
               <div className="card-top-bar" style={{ background: "#000", borderBottom: "3px solid rgba(255,255,255,.1)" }}></div>
               <div className="card-body">
                 <div className="card-header">
